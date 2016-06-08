@@ -1,0 +1,26 @@
+<p>
+  <strong>Title:</strong>
+  <%= @student.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @student.text %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @student.height %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @student.colour %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @student.gpa %>
+</p>
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>
